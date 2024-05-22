@@ -1,12 +1,4 @@
-# Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023
-
-![Copy of Copy of Copy of Fullstack Twitter Clone](https://github.com/AntonioErdeljac/next13-ai-saas/assets/23248726/c47e604a-b50b-4eb0-b420-fda20908f522)
-
-
-
-This is a repository for Build a SaaS AI Platform with Next.js 13, React, Tailwind, Prisma, Stripe | Full Tutorial 2023.
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ffJ38dBzrlY)
+# A SaaS AI Platform with Next.js 14, React, Tailwind, Prisma
 
 Features:
 
@@ -17,27 +9,18 @@ Features:
 - Client form validation and handling using react-hook-form
 - Server error handling using react-toast
 - Image Generation Tool (Open AI)
-- Video Generation Tool (Replicate AI)
+- Video Generation Tool (D-ID)
 - Conversation Generation Tool (Open AI)
-- Music Generation Tool (Replicate AI)
 - Page loading state
-- Stripe monthly subscription
-- Free tier with API limiting
-- How to write POST, DELETE, and GET routes in route handlers (app/api)
-- How to fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
-- How to handle relations between Server and Child components!
-- How to reuse layouts
-- Folder structure in Next 13 App Router
+- Write POST, DELETE, and GET routes in route handlers (app/api)
+- Fetch data in server react components by directly accessing database (WITHOUT API! like Magic!)
+- Handle relations between Server and Child components!
+- Reuse layouts
+- Folder structure in Next 14 App Router
 
 ### Prerequisites
 
 **Node version 18.x.x**
-
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next13-ai-saas.git
-```
 
 ### Install packages
 
@@ -58,12 +41,10 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
 OPENAI_API_KEY=
-REPLICATE_API_TOKEN=
+D-ID_API_TOKEN=
 
 DATABASE_URL=
 
-STRIPE_API_KEY=
-STRIPE_WEBHOOK_SECRET=
 
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
 ```
